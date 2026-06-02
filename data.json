@@ -1,0 +1,217 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/definebabe-downloader",
+  "serply_link": "https://serp.ly/definebabe-downloader",
+  "app_name": "Definebabe Video Downloader",
+  "short_description": "Download & Save Definebabe Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Downloader for DefineBabe is a browser extension that lets you save videos from supported DefineBabe pages without leaving your browser. Open the page, start playback if needed, use the player button or popup, and save one of the formats the page actually exposes. It turns a supported video page into a simple browser download workflow.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/definebabe-downloader-fullscreen-01-4b6a66b8a7.webp",
+    "https://apps.serp.co/media/optimized-products/definebabe-downloader-fullscreen-02-f2cbafe644.webp",
+    "https://apps.serp.co/media/optimized-products/definebabe-downloader-fullscreen-03-dc43c47a94.webp",
+    "https://apps.serp.co/media/optimized-products/definebabe-downloader-fullscreen-04-2e0e2741e1.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "How do I use Definebabe Downloader?",
+      "answer": "Open a supported DefineBabe page, start playback if the stream has not been exposed yet, then use the player button, popup, or right-click menu."
+    },
+    {
+      "question": "What formats can I download?",
+      "answer": "You can expect direct MP4 and HLS/M3U8-style candidates when the page or player exposes them. Final output and available quality depend on what the source reveals."
+    },
+    {
+      "question": "Where do downloaded files go?",
+      "answer": "Files are saved to a DefineBabe download folder in your browser's default downloads directory."
+    },
+    {
+      "question": "Does it send downloads through a remote service?",
+      "answer": "No. Media handling happens in your browser using the extension and offscreen processing pipeline. Auth and update checks use SERP and GitHub services only."
+    },
+    {
+      "question": "Can I use this on any DefineBabe page?",
+      "answer": "It works on supported DefineBabe pages that match the expected video page structure. Some pages may expose just one usable option."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Archiving content you have permission to keep for personal reference"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "DefineBabe-specific host matching for reliable page detection",
+    "Player button that appears on supported video pages",
+    "Direct MP4 and HLS-style candidate discovery",
+    "Popup review of detected options before downloading",
+    "Right-click menu for quick access on any page",
+    "In-page progress UI and organized download folder",
+    "OTP activation with 3 free trial downloads",
+    "Player button that attaches to supported video containers on DefineBabe pages",
+    "Direct MP4 detection from video tags and page metadata",
+    "HLS/M3U8-style candidate discovery when the player exposes streams",
+    "Popup interface showing detected options with quality labels",
+    "Right-click context menu for quick access on video pages",
+    "In-page download progress panel showing status",
+    "Organized save folder for downloaded files",
+    "OTP email verification with secure one-time password login",
+    "Automatic update checks via GitHub Releases",
+    "Desktop notifications when downloads complete"
+  ],
+  "content": {
+    "why": [
+      "Scripted video pages do not always expose the final file directly. Generic downloaders can show preview assets instead of the real stream, and casual users do not want command-line or forensic-style steps to save a video they already have open.",
+      "Definebabe Downloader watches page metadata, media tags, scripts, and observed requests for likely video sources while filtering obvious preview or ad noise before presenting options. You get visible controls on the page, format choice when the source exposes variants, and a simple save workflow without copy/paste tools."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open DefineBabe and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install Definebabe Downloader by following the installation instructions below.",
+      "Open your browser and navigate to a DefineBabe video page you want to save.",
+      "Press play on the video player so the stream becomes available for detection.",
+      "Look for the download button that appears near the video player on supported pages.",
+      "Click the button or open the extension popup from the toolbar to see detected options.",
+      "Review the available formats and choose the quality you prefer.",
+      "Confirm the download and wait for the processing to complete.",
+      "Save the final MP4 file to your local downloads folder."
+    ],
+    "supported_formats": [
+      "Input: Direct MP4 URLs and HLS/M3U8 playlists when exposed by the page or player",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "People who want offline viewing from the browser without a desktop app",
+      "Users who prefer visible controls over source-code inspection",
+      "Casual viewers who want a simple save workflow without copy/paste steps",
+      "Anyone who wants format choice when the source exposes variants"
+    ],
+    "use_cases": [
+      "Saving a video for offline playback when you do not have internet access",
+      "Archiving content you have permission to keep for personal reference",
+      "Building a local library of media from supported DefineBabe pages",
+      "Avoiding repeated streaming of the same video to save bandwidth",
+      "Keeping a backup copy of content you own or have rights to save"
+    ],
+    "troubleshooting": [
+      "No download button appears on the page Try refreshing the page and starting playback again. Some pages require the player to initialize before media candidates become available.",
+      "The popup shows no detected formats Make sure you are on a supported DefineBabe video page and that playback has started. Try refreshing the page and playing the video again.",
+      "The download fails mid-way Check your internet connection and try again. If the issue persists, try a different quality option or refresh the page.",
+      "I see preview assets instead of the real video The extension filters obvious preview and ad noise, but some pages may expose multiple candidates. Try the highest quality option first.",
+      "My free trial downloads are not showing up Make sure you have completed the OTP email verification process. Sign in with your email and check your entitlement status in the popup."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported DefineBabe page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Playback may be needed before media candidates appear on some pages",
+      "Some pages may expose just one usable format option"
+    ],
+    "about": [
+      "DefineBabe is an adult video platform featuring a wide variety of content from studios and performers worldwide. Definebabe Downloader helps you save videos from supported pages using a browser-native workflow that detects playable media without copy/paste tools."
+    ]
+  },
+  "serpx_link": "https://serpx.link/definebabe-downloader",
+  "github_topics": [
+    "definebabe-download",
+    "definebabe-downloader",
+    "definebabe-video-downloader",
+    "definebabe-video-downloader-online",
+    "definebabe-video-downloader-mac",
+    "definebabe-video-downloader-window",
+    "definebabe-video-downloader-free",
+    "definebabe-video-downloader-extension",
+    "definebabe-video-downloader-app",
+    "definebabe-video-downloader-chrome",
+    "definebabe-video-downloader-from-url",
+    "how-to-download-definebabe-videos",
+    "how-to-download-definebabe-videos-mac",
+    "how-to-download-definebabe-videos-windows",
+    "how-to-download-definebabe-videos-online",
+    "how-to-download-definebabe-videos-free",
+    "how-to-download-from-definebabe",
+    "how-to-download-videos-from-definebabe",
+    "download-definebabe-videos",
+    "definebabe-video-tutorial",
+    "save-definebabe-videos",
+    "definebabe-video-content-saver",
+    "how-to-download-definebabe-videos-for-free"
+  ],
+  "hashtags": [
+    "#DefinebabeDownload",
+    "#DefinebabeDownloader",
+    "#DefinebabeVideoDownloader",
+    "#DefinebabeVideoDownloaderOnline",
+    "#DefinebabeVideoDownloaderMac",
+    "#DefinebabeVideoDownloaderWindow",
+    "#DefinebabeVideoDownloaderFree",
+    "#DefinebabeVideoDownloaderExtension",
+    "#DefinebabeVideoDownloaderApp",
+    "#DefinebabeVideoDownloaderChrome",
+    "#DefinebabeVideoDownloaderFromURL",
+    "#HowToDownloadDefinebabeVideos",
+    "#HowToDownloadDefinebabeVideosMac",
+    "#HowToDownloadDefinebabeVideosWindows",
+    "#HowToDownloadDefinebabeVideosOnline",
+    "#HowToDownloadDefinebabeVideosFree",
+    "#HowToDownloadFromDefinebabe",
+    "#HowToDownloadVideosFromDefinebabe",
+    "#DownloadDefinebabeVideos",
+    "#DefinebabeVideoTutorial",
+    "#SaveDefinebabeVideos",
+    "#DefinebabeVideoContentSaver",
+    "#HowToDownloadDefinebabeVideosForFree"
+  ],
+  "youtube_tags": [
+    "Definebabe Download",
+    "Definebabe Downloader",
+    "Definebabe Video Downloader",
+    "Definebabe Video Downloader Online",
+    "Definebabe Video Downloader Mac",
+    "Definebabe Video Downloader Window",
+    "Definebabe Video Downloader Free",
+    "Definebabe Video Downloader Extension",
+    "Definebabe Video Downloader App",
+    "Definebabe Video Downloader Chrome",
+    "Definebabe Video Downloader From URL",
+    "How To Download Definebabe Videos",
+    "How To Download Definebabe Videos Mac",
+    "How To Download Definebabe Videos Windows",
+    "How To Download Definebabe Videos Online",
+    "How To Download Definebabe Videos Free",
+    "How To Download From Definebabe",
+    "How To Download Videos From Definebabe",
+    "Download Definebabe Videos",
+    "Definebabe Video Tutorial",
+    "Save Definebabe Videos",
+    "Definebabe Video Content Saver",
+    "How To Download Definebabe Videos For Free"
+  ]
+}
